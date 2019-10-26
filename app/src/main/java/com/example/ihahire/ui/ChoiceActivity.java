@@ -29,7 +29,7 @@ public class ChoiceActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChoiceActivity.this, BuyMainActivity.class);
+                Intent intent = new Intent(ChoiceActivity.this, BuyActivity.class);
                 startActivity(intent);
 
             }
@@ -38,7 +38,7 @@ public class ChoiceActivity extends AppCompatActivity {
         mSell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1=new Intent(ChoiceActivity.this, sellActivity.class);
+                Intent intent1=new Intent(ChoiceActivity.this, SellActivity.class);
                 startActivity(intent1);
             }
         });
