@@ -12,7 +12,6 @@
         android:id="@+id/img3"
         android:scaleType="fitStart"/>
 
-
     <TextView
         android:id="@+id/articles"
         android:layout_width="wrap_content"
@@ -24,7 +23,6 @@
         android:textStyle="italic"
         android:layout_centerHorizontal="true"/>
 
-
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -35,5 +33,15 @@
         android:textSize="30dp"
         android:layout_centerHorizontal="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        />
 
 </RelativeLayout>

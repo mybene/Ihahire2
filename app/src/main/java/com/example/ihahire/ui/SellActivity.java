@@ -21,6 +21,7 @@ public class SellActivity extends AppCompatActivity {
     @BindView(R.id.selling) Button mSelling;
     @BindView(R.id.name) EditText Product;
     @BindView(R.id.place)EditText Shop;
+    @BindView(R.id.phone)EditText Phone;
 
 
     @Override
@@ -39,11 +40,13 @@ public class SellActivity extends AppCompatActivity {
 
                 String article = Product.getText().toString();
                 String place = Shop.getText().toString();
+                String contact=Phone.getText().toString();
 
                 Toast.makeText(SellActivity.this, "Your product is received!!!", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(SellActivity.this, NewProductsActivity.class);
                 intent.putExtra("name", article);
                 intent.putExtra("shop", place);
+                intent.putExtra("contact",contact);
                 startActivity(intent);
 
 
