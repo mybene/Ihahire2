@@ -10,7 +10,6 @@ import com.example.ihahire.R;
 
 public class NewProductsActivity extends AppCompatActivity {
 
-    private TextView Article;
     private TextView Detail;
 
 
