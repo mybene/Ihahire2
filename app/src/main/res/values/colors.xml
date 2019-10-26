@@ -10,4 +10,8 @@
     <color name="colorMidnightBlue">#191970</color>
     <color name="colorLightSlateGray">#778899</color>
     <color name="colorChocolate">#D2691E</color>
+    <color name="colorPrimaryText">#1F1E1E</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorTextIcons">#FFFFFF</color>
 </resources>

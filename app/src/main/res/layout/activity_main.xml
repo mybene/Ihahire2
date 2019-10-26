@@ -48,7 +48,7 @@
         android:layout_marginBottom="5dp"
         android:layout_centerHorizontal="true"
         android:background="@color/colorwhite"
-        android:text="Login"
+        android:text="Already have an account? Log in here!"
         android:textColor="@color/colorRed" />
 
 
